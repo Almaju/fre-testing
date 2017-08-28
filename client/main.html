@@ -1,0 +1,13 @@
+<head>
+  <title>fre-test</title>
+</head>
+
+<template name="layout">
+  {{> yield}}
+  {{> Template.dynamic template=view}}
+</template>
+
+<template name="home">
+  <h1>Home</h1>
+  {{ pathFor 'home' }}
+</template>

@@ -1,0 +1,26 @@
+{
+  "name": "fre-test",
+  "author": "Alexandre Hanot",
+  "scripts": {
+    "start": "meteor run"
+  },
+  "engines": {
+    "node": "4.4.7",
+    "npm": "~4"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.70.0",
+    "babel-runtime": "^6.23.0",
+    "bcrypt": "^1.0.2",
+    "chai": "^4.0.2",
+    "fbgraph": "^1.4.1",
+    "fs": "0.0.1-security",
+    "hammerjs": "^2.0.8",
+    "jquery": "^3.2.1",
+    "materialize-clockpicker": "^1.0.1",
+    "meteor-node-stubs": "^0.2.11",
+    "object-path": "^0.11.4",
+    "simpl-schema": "^0.3.0",
+    "stripe": "^4.22.0"
+  }
+}
